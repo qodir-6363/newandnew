@@ -122,3 +122,42 @@ li{
 .movie-img p:hover {
     color: red;
 }
+
+@media  screen and (min-width: 100px) and (max-width:480px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .first-section{
+        display: none;
+    }
+
+    .third-section{
+        display: none   ;
+    }
+
+    .second-section{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 461px) and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .first-section{
+        display: none;
+    }
+
+    .third-section{
+        display: none   ;
+    }
+
+    .second-section{
+        width: 100%;
+    }
+}
